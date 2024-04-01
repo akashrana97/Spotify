@@ -19,11 +19,12 @@ body{
 
 .right{
     width: 75vw;
+    margin: 14px 0;
+    margin-right: 12px;
+    border-radius: 7px;
 }
 
-.home{
-    /* padding: 10px; */
-}
+
 .library{
     position: relative;
     min-height: 72vh;
@@ -61,4 +62,39 @@ body{
 
 .footer a{
     color:grey
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.header > *{
+    padding: 5px;
+}
+
+.spotifyPlaylist{
+    padding: 16px;
+}
+.cardContainer{
+    gap:10px;
+    margin: 30px;
+}
+.cardContainer .card{
+    width: 130px;
+    border-radius: 5px;
+    background-color: #252525;
+    padding:10px;
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.card > *{
+    padding: 3px;
 }
